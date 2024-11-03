@@ -9,8 +9,8 @@ from binance.client import Client
 client = Client()
 
 duration_paths = {
-    '4 minutes ago UTC': 'C:\\Users\\tariq\\algorithmic_trading\\data\\topPerformers\\4minutes',
-    '11 minutes ago UTC': 'C:\\Users\\tariq\\algorithmic_trading\\data\\topPerformers\\11minutes',
+    '4 minutes ago UTC': 'C:\\Users\\tariq\\algorithmic_trading\\data\\topPerformers\\4minutesFutures',
+    '11 minutes ago UTC': 'C:\\Users\\tariq\\algorithmic_trading\\data\\topPerformers\\11minutesFutures',
 }
 
 
