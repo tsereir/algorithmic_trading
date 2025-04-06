@@ -13,6 +13,11 @@ duration_paths = {
     '11 minutes ago UTC': 'C:\\Users\\tariq\\algorithmic_trading\\data\\topPerformers\\11minutes',
 }
 
+    # quick_guide:
+    #   - bullet: 'Each section title is arbitrary and each section contains a list of entries.'
+    #   - bullet: 'There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
+    #   - bullet: 'Select a section title, pick an entry type, and start writing your section!'
+    #   - bullet: '[Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.'
 
 
 def get_history(client, symbol, interval, duration):
