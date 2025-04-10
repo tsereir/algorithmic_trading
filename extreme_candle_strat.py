@@ -19,7 +19,8 @@ def backtest_extreme_candle_pair_vectorized(filepath, threshold=-0.05):
     # df["close_plus_2"] = df["close"].shift(-2)
 
     # Calcul du return du trade
-    df["return"] = np.log(df["close_after"] / df["open_next"]) - 0.0001
+    # df["return"] = np.log(df["close_after"] / df["open_next"]) - 0.0001
+    df["return"] =(df["close_after"] - df["open_next"]) / (df["open_next"]) - 0.001
     # df["trade_return"] = np.log(df["close_plus_2"] / df["close_after"]) - 0.0001  # alternative
 
     # Ne garder que les lignes avec signal
